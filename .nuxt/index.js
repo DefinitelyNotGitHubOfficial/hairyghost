@@ -62,7 +62,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"hairyghost","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+    head: {"title":"Hairy Ghost - Twin Cities Guide to Halloween, Haunted House, Movies and Attractions","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Welcome to Hairy Ghost! Your guide to Halloween, Haunted Houses, Movies and Attractions in the Twin Cities."},{"name":"format-detection","content":"telephone=no"},{"property":"og:description","content":"Welcome to Hairy Ghost! Your guide to Halloween, Haunted Houses, Movies and Attractions in the Twin Cities."},{"property":"og:title","content":"Hairy Ghost - Twin Cities Guide to Halloween, Haunted House, Movies and Attractions"},{"property":"og:url","content":"https:\u002F\u002Fwww.hairyghost.com"},{"property":"og:locale","content":"en_US"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
 
     router,
     nuxt: {

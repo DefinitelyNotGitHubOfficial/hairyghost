@@ -1,4 +1,6 @@
+export { default as Header } from '../../components/Header.vue'
 export { default as HeroHead } from '../../components/HeroHead.vue'
+export { default as NavBar } from '../../components/NavBar.vue'
 export { default as NuxtLogo } from '../../components/NuxtLogo.vue'
 export { default as Tutorial } from '../../components/Tutorial.vue'
 

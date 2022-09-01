@@ -1,6 +1,12 @@
 {
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
   "HeroHead": {
     "description": "Auto imported from components/HeroHead.vue"
+  },
+  "NavBar": {
+    "description": "Auto imported from components/NavBar.vue"
   },
   "NuxtLogo": {
     "description": "Auto imported from components/NuxtLogo.vue"
