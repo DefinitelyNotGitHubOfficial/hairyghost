@@ -6,8 +6,12 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
+- `<Calendar>` | `<calendar>` (components/Calendar.vue)
+- `<Categories>` | `<categories>` (components/Categories.vue)
+- `<Contact>` | `<contact>` (components/Contact.vue)
+- `<DaySelector>` | `<day-selector>` (components/DaySelector.vue)
+- `<FilterSelector>` | `<filter-selector>` (components/FilterSelector.vue)
 - `<Header>` | `<header>` (components/Header.vue)
-- `<HeroHead>` | `<hero-head>` (components/HeroHead.vue)
-- `<NavBar>` | `<nav-bar>` (components/NavBar.vue)
-- `<NuxtLogo>` | `<nuxt-logo>` (components/NuxtLogo.vue)
-- `<Tutorial>` | `<tutorial>` (components/Tutorial.vue)
+- `<Listing>` | `<listing>` (components/Listing.vue)
+- `<Modal>` | `<modal>` (components/Modal.vue)
+- `<Twitter>` | `<twitter>` (components/Twitter.vue)

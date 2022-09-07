@@ -1,46 +1,80 @@
 <template>
     <header>
-        <img src="images/ghosty.svg" />Hairy Ghost
-        <span class="material-symbols-outlined">search</span>
-        <input placeholder="Search Haunts, Houses, Attractions and Movies"/>
-        </header>
+        <div class="brand"><h1>Hairy Ghost</h1></div>
+        <div class="search">
+            <form>
+                <span class="material-symbols-outlined">search</span>
+                <input placeholder="Search for Haunts, Houses, Attractions & Movies" />
+            </form>
+        </div>
+        <div class="contact"><span class="material-symbols-outlined">forum</span></div>
+    </header>
 </template>
-<style lang="scss">
-    @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap'); 
+<style lang="scss" scoped>
+    @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+    @import 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0';
+    
     header {
+        display: grid;
+        grid-template-columns: 90px auto 50px;
+        gap: 10px;
+        max-width:800px;
+        width:100%;
+        margin: auto;
+        min-width:400px;
+        width:100%;
         background-color:$purple;
-        color:#ecff00;
-        font-family: 'Creepster', cursive;
-        padding:1rem;
-        text-shadow:2px 2px 6px rgba(0,0,0,0.4);
-        font-size:3rem;
-        // -webkit-text-stroke-width: 1px;
-        // -webkit-text-stroke-color: #000;
-        img {
-            height:40px;
-            margin-right:5px;
-        }
-        input {
-            border:none;
-            padding:8px 8px 8px 40px;
-            border-radius:20px;
-            font-size:1rem;
-            font-weight:400;
-            width:90%;
-            background-color: #02d456;
-            color:#fff;
-            opacity:1;
+        border-bottom-left-radius: $sm-rad;
+        border-bottom-right-radius: $sm-rad;
+        div {
+            //border:1px solid red;
+            display:flex;
+            justify-content: center;
+            align-items: center;
         }
     }
-    .material-symbols-outlined {
-    font-size:20px!important;
-    display:inline-block;
-    padding-right:2px;
-    color:#fff;
-    text-shadow:1px 1px 2px rgba(0,0,0,0.2);
-    position: absolute;
-    margin-top:8px;
-    margin-left:12px;
-}
+    h1 {
+        font-family: 'Creepster', cursive;
+        padding:0px;
+        margin:0px;
+        font-size:2rem;
+        line-height:1.6rem;
+        text-align:center;
+        color:$green;
+    }
+    .contact{
+        .material-symbols-outlined {
+            background-color:$green;
+            padding:7px;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+    }
+    .search{
+        .material-symbols-outlined {
+            position: absolute;
+            margin-top:5px;
+            margin-left:10px;
+        }
+    }
     
+    form {
+        width:calc(100% - 60px);
+        margin-left:-50px;
+        }
+    input {
+        border:none;
+        outline: none;
+        padding:10px 10px 10px 40px;
+        width:100%;
+        background-color: $green;
+        border-radius: 20px;
+        text-overflow: ellipsis;
+    }
+    .brand {
+        padding:15px 0 15px 15px;
+    }
+    .contact {
+        padding:15px 15px 15px 0;
+    }
 </style>

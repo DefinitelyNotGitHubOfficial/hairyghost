@@ -1,17 +1,29 @@
 {
+  "Calendar": {
+    "description": "Auto imported from components/Calendar.vue"
+  },
+  "Categories": {
+    "description": "Auto imported from components/Categories.vue"
+  },
+  "Contact": {
+    "description": "Auto imported from components/Contact.vue"
+  },
+  "DaySelector": {
+    "description": "Auto imported from components/DaySelector.vue"
+  },
+  "FilterSelector": {
+    "description": "Auto imported from components/FilterSelector.vue"
+  },
   "Header": {
     "description": "Auto imported from components/Header.vue"
   },
-  "HeroHead": {
-    "description": "Auto imported from components/HeroHead.vue"
+  "Listing": {
+    "description": "Auto imported from components/Listing.vue"
   },
-  "NavBar": {
-    "description": "Auto imported from components/NavBar.vue"
+  "Modal": {
+    "description": "Auto imported from components/Modal.vue"
   },
-  "NuxtLogo": {
-    "description": "Auto imported from components/NuxtLogo.vue"
-  },
-  "Tutorial": {
-    "description": "Auto imported from components/Tutorial.vue"
+  "Twitter": {
+    "description": "Auto imported from components/Twitter.vue"
   }
 }
